@@ -10,9 +10,10 @@ const TripSchema = new mongoose.Schema({
   current_location: { lat: Number, lng: Number },
   status: { 
     type: String, 
-    enum: ['scheduled', 'boarding', 'departed', 'en_route', 'delayed', 'completed', 'cancelled'], 
+    enum: ['scheduled', 'boarding', 'departed', 'en_route', 'completed'], 
     default: 'scheduled'
-  }
+  },
+  manualStatus: { type: String, enum: ['delayed','cancelled'], default: null } // NEW
 });
- 
+
 module.exports = mongoose.model('Trip', TripSchema);

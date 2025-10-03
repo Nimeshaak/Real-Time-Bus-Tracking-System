@@ -9,23 +9,21 @@ function interpolate(start, end, progress) {
   };
 }
 
-// Calculate current location dynamically
-async function getCurrentLocation(trip) {
-  const route = await Route.findOne({ id: trip.route_id });
-  if (!route) return trip.current_location;
-
-  const startTime = new Date(trip.scheduled_time);
-  const now = new Date();
-  const elapsedMin = (now - startTime) / (1000 * 60);
-  const progress = Math.min(elapsedMin / trip.duration_min, 1);
-  return interpolate(route.start, route.end, progress);
-}
-
-// Get all moving trips (for commuters)
+// Get all moving trips (optimized for today)
 exports.getAllTrips = async (req, res) => {
   try {
-    const trips = await Trip.find({});
     const now = new Date();
+
+    // Only today's trips
+    const dayStart = new Date(now);
+    dayStart.setHours(0, 0, 0, 0);
+
+    const dayEnd = new Date(now);
+    dayEnd.setHours(23, 59, 59, 999);
+
+    const trips = await Trip.find({
+      scheduled_time: { $gte: dayStart, $lte: dayEnd }
+    });
 
     const movingTrips = await Promise.all(trips.map(async trip => {
       const route = await Route.findOne({ id: trip.route_id });
@@ -34,20 +32,22 @@ exports.getAllTrips = async (req, res) => {
       const startTime = new Date(trip.scheduled_time);
       const endTime = new Date(startTime.getTime() + trip.duration_min * 60 * 1000);
 
-      // Update status automatically
-      if (now < startTime) trip.status = 'scheduled';
-      else if (now >= startTime && now < startTime.getTime() + 5*60*1000) trip.status = 'boarding';
-      else if (now >= startTime && now <= endTime) trip.status = 'en_route';
-      else trip.status = 'completed';
-
-      await trip.save();
-
-      if (trip.status !== 'en_route') return null;
+      // Auto-update status if manualStatus is not set
+      if (!trip.manualStatus) {
+        if (now < startTime) trip.status = 'scheduled';
+        else if (now >= startTime && now <= endTime) trip.status = 'en_route';
+        else trip.status = 'completed';
+        await trip.save();
+      }
 
       const progress = (now - startTime) / (trip.duration_min * 60 * 1000);
       const current_location = interpolate(route.start, route.end, progress);
 
-      return { ...trip.toObject(), current_location };
+      const displayStatus = trip.manualStatus || trip.status;
+
+      if (!['en_route', 'delayed', 'cancelled'].includes(displayStatus)) return null;
+
+      return { ...trip.toObject(), current_location, displayStatus };
     }));
 
     res.json(movingTrips.filter(t => t !== null));
@@ -63,15 +63,25 @@ exports.getTripById = async (req, res) => {
     const trip = await Trip.findOne({ trip_id: req.params.id });
     if (!trip) return res.status(404).json({ message: 'Trip not found' });
 
-    const current_location = await getCurrentLocation(trip);
-    res.json({ ...trip.toObject(), current_location });
+    const route = await Route.findOne({ id: trip.route_id });
+    const now = new Date();
+    let progress = 0;
+    if (route) {
+      const startTime = new Date(trip.scheduled_time);
+      progress = (now - startTime) / (trip.duration_min * 60 * 1000);
+    }
+
+    const current_location = route ? interpolate(route.start, route.end, progress) : trip.current_location;
+    const displayStatus = trip.manualStatus || trip.status;
+
+    res.json({ ...trip.toObject(), current_location, displayStatus });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: 'Server error' });
   }
 };
 
-// Update trip location manually (bus operator)
+// Update trip location manually
 exports.updateTripLocation = async (req, res) => {
   try {
     const { id } = req.params;
@@ -90,22 +100,24 @@ exports.updateTripLocation = async (req, res) => {
   }
 };
 
-// Update trip status manually (delayed or cancelled)
+// Update trip status manually (delayed, cancelled, en_route)
 exports.updateTripStatus = async (req, res) => {
   try {
     const { id } = req.params;
     const { status } = req.body;
 
-    if (!['delayed', 'cancelled'].includes(status))
+    if (!['delayed','cancelled','en_route'].includes(status))
       return res.status(400).json({ message: 'Invalid status' });
 
     const trip = await Trip.findOne({ trip_id: id });
     if (!trip) return res.status(404).json({ message: 'Trip not found' });
 
-    trip.status = status;
+    trip.manualStatus = status === 'en_route' ? null : status; // reset manualStatus if back to en_route
+    if(status === 'en_route') trip.status = 'en_route';
+
     await trip.save();
 
-    res.json({ message: 'Trip status updated', trip });
+    res.json({ message: `Trip ${id} status updated to "${status}"`, trip });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: 'Server error' });

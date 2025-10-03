@@ -1,4 +1,3 @@
-// populateDB.js
 const mongoose = require('mongoose');
 const connectDB = require('./config/db');
 const Route = require('./models/route');
@@ -23,10 +22,10 @@ const populateDB = async () => {
     // Insert routes
     await Route.insertMany(simulationData.routes);
 
-    // Insert buses
+    // Insert buses (capacity removed)
     await Bus.insertMany(simulationData.buses);
 
-    // Insert trips
+    // Insert trips with standard enum status
     const trips = simulationData.trips.map(trip => ({
       trip_id: trip.trip_id,
       bus_id: trip.bus_id,
@@ -35,7 +34,7 @@ const populateDB = async () => {
       duration_min: trip.duration_min,
       steps: trip.steps,
       current_location: trip.current_location,
-      status: trip.status
+      status: trip.status 
     }));
 
     await Trip.insertMany(trips);

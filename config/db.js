@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://ntcadmin:123ASDF00nkw@cluster0.2wxtosm.mongodb.net/');
+    await mongoose.connect('mongodb+srv://ntcadmin:123ASDF00nkw@cluster0.2wxtosm.mongodb.net/bus_tracking');
     console.log('✅ MongoDB connected');
   } catch (err) {
     console.error('❌ MongoDB connection error:', err);

@@ -3,6 +3,8 @@
     {
       "id": "route-1",
       "name": "Colombo–Kandy",
+      "duration_min": 180,
+      "stagger_min": 15,
       "start": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -15,6 +17,8 @@
     {
       "id": "route-2",
       "name": "Colombo–Galle",
+      "duration_min": 150,
+      "stagger_min": 20,
       "start": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -27,6 +31,8 @@
     {
       "id": "route-3",
       "name": "Kandy–Kurunegala",
+      "duration_min": 120,
+      "stagger_min": 20,
       "start": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -39,6 +45,8 @@
     {
       "id": "route-4",
       "name": "Trincomalee–Colombo",
+      "duration_min": 300,
+      "stagger_min": 35,
       "start": {
         "lat": 8.5878,
         "lng": 81.2152
@@ -51,6 +59,8 @@
     {
       "id": "route-5",
       "name": "Badulla–Nuwara Eliya",
+      "duration_min": 100,
+      "stagger_min": 25,
       "start": {
         "lat": 6.991,
         "lng": 81.055
@@ -66,186 +76,161 @@
       "id": "bus-1",
       "route_id": "route-1",
       "reg_number": "NP-001",
-      "driver_name": "Driver 1",
-      "capacity": 50
+      "driver_name": "Driver 1"
     },
     {
       "id": "bus-2",
       "route_id": "route-1",
       "reg_number": "NP-002",
-      "driver_name": "Driver 2",
-      "capacity": 50
+      "driver_name": "Driver 2"
     },
     {
       "id": "bus-3",
       "route_id": "route-1",
       "reg_number": "NP-003",
-      "driver_name": "Driver 3",
-      "capacity": 50
+      "driver_name": "Driver 3"
     },
     {
       "id": "bus-4",
       "route_id": "route-1",
       "reg_number": "NP-004",
-      "driver_name": "Driver 4",
-      "capacity": 50
+      "driver_name": "Driver 4"
     },
     {
       "id": "bus-5",
       "route_id": "route-1",
       "reg_number": "NP-005",
-      "driver_name": "Driver 5",
-      "capacity": 50
+      "driver_name": "Driver 5"
     },
     {
       "id": "bus-6",
       "route_id": "route-2",
       "reg_number": "NP-006",
-      "driver_name": "Driver 6",
-      "capacity": 50
+      "driver_name": "Driver 6"
     },
     {
       "id": "bus-7",
       "route_id": "route-2",
       "reg_number": "NP-007",
-      "driver_name": "Driver 7",
-      "capacity": 50
+      "driver_name": "Driver 7"
     },
     {
       "id": "bus-8",
       "route_id": "route-2",
       "reg_number": "NP-008",
-      "driver_name": "Driver 8",
-      "capacity": 50
+      "driver_name": "Driver 8"
     },
     {
       "id": "bus-9",
       "route_id": "route-2",
       "reg_number": "NP-009",
-      "driver_name": "Driver 9",
-      "capacity": 50
+      "driver_name": "Driver 9"
     },
     {
       "id": "bus-10",
       "route_id": "route-2",
       "reg_number": "NP-010",
-      "driver_name": "Driver 10",
-      "capacity": 50
+      "driver_name": "Driver 10"
     },
     {
       "id": "bus-11",
       "route_id": "route-3",
       "reg_number": "NP-011",
-      "driver_name": "Driver 11",
-      "capacity": 50
+      "driver_name": "Driver 11"
     },
     {
       "id": "bus-12",
       "route_id": "route-3",
       "reg_number": "NP-012",
-      "driver_name": "Driver 12",
-      "capacity": 50
+      "driver_name": "Driver 12"
     },
     {
       "id": "bus-13",
       "route_id": "route-3",
       "reg_number": "NP-013",
-      "driver_name": "Driver 13",
-      "capacity": 50
+      "driver_name": "Driver 13"
     },
     {
       "id": "bus-14",
       "route_id": "route-3",
       "reg_number": "NP-014",
-      "driver_name": "Driver 14",
-      "capacity": 50
+      "driver_name": "Driver 14"
     },
     {
       "id": "bus-15",
       "route_id": "route-3",
       "reg_number": "NP-015",
-      "driver_name": "Driver 15",
-      "capacity": 50
+      "driver_name": "Driver 15"
     },
     {
       "id": "bus-16",
       "route_id": "route-4",
       "reg_number": "NP-016",
-      "driver_name": "Driver 16",
-      "capacity": 50
+      "driver_name": "Driver 16"
     },
     {
       "id": "bus-17",
       "route_id": "route-4",
       "reg_number": "NP-017",
-      "driver_name": "Driver 17",
-      "capacity": 50
+      "driver_name": "Driver 17"
     },
     {
       "id": "bus-18",
       "route_id": "route-4",
       "reg_number": "NP-018",
-      "driver_name": "Driver 18",
-      "capacity": 50
+      "driver_name": "Driver 18"
     },
     {
       "id": "bus-19",
       "route_id": "route-4",
       "reg_number": "NP-019",
-      "driver_name": "Driver 19",
-      "capacity": 50
+      "driver_name": "Driver 19"
     },
     {
       "id": "bus-20",
       "route_id": "route-4",
       "reg_number": "NP-020",
-      "driver_name": "Driver 20",
-      "capacity": 50
+      "driver_name": "Driver 20"
     },
     {
       "id": "bus-21",
       "route_id": "route-5",
       "reg_number": "NP-021",
-      "driver_name": "Driver 21",
-      "capacity": 50
+      "driver_name": "Driver 21"
     },
     {
       "id": "bus-22",
       "route_id": "route-5",
       "reg_number": "NP-022",
-      "driver_name": "Driver 22",
-      "capacity": 50
+      "driver_name": "Driver 22"
     },
     {
       "id": "bus-23",
       "route_id": "route-5",
       "reg_number": "NP-023",
-      "driver_name": "Driver 23",
-      "capacity": 50
+      "driver_name": "Driver 23"
     },
     {
       "id": "bus-24",
       "route_id": "route-5",
       "reg_number": "NP-024",
-      "driver_name": "Driver 24",
-      "capacity": 50
+      "driver_name": "Driver 24"
     },
     {
       "id": "bus-25",
       "route_id": "route-5",
       "reg_number": "NP-025",
-      "driver_name": "Driver 25",
-      "capacity": 50
+      "driver_name": "Driver 25"
     }
   ],
   "trips": [
     {
-      "trip_id": "trip-bus-1-1-1",
+      "trip_id": "trip-bus-1-1",
       "bus_id": "bus-1",
       "route_id": "route-1",
-      "scheduled_time": "2025-10-02T08:38:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -253,12 +238,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-2-1-1",
+      "trip_id": "trip-bus-2-1",
       "bus_id": "bus-2",
       "route_id": "route-1",
-      "scheduled_time": "2025-10-02T08:48:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -266,12 +251,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-3-1-1",
+      "trip_id": "trip-bus-3-1",
       "bus_id": "bus-3",
       "route_id": "route-1",
-      "scheduled_time": "2025-10-02T08:58:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -279,12 +264,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-4-1-1",
+      "trip_id": "trip-bus-4-1",
       "bus_id": "bus-4",
       "route_id": "route-1",
-      "scheduled_time": "2025-10-02T09:08:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -292,12 +277,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-5-1-1",
+      "trip_id": "trip-bus-5-1",
       "bus_id": "bus-5",
       "route_id": "route-1",
-      "scheduled_time": "2025-10-02T09:18:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -305,12 +290,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-6-1-1",
+      "trip_id": "trip-bus-6-1",
       "bus_id": "bus-6",
       "route_id": "route-2",
-      "scheduled_time": "2025-10-02T09:28:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -318,12 +303,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-7-1-1",
+      "trip_id": "trip-bus-7-1",
       "bus_id": "bus-7",
       "route_id": "route-2",
-      "scheduled_time": "2025-10-02T09:38:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -331,12 +316,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-8-1-1",
+      "trip_id": "trip-bus-8-1",
       "bus_id": "bus-8",
       "route_id": "route-2",
-      "scheduled_time": "2025-10-02T09:48:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -344,12 +329,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-9-1-1",
+      "trip_id": "trip-bus-9-1",
       "bus_id": "bus-9",
       "route_id": "route-2",
-      "scheduled_time": "2025-10-02T09:58:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -357,12 +342,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-10-1-1",
+      "trip_id": "trip-bus-10-1",
       "bus_id": "bus-10",
       "route_id": "route-2",
-      "scheduled_time": "2025-10-02T10:08:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
       "current_location": {
         "lat": 6.9271,
         "lng": 79.8612
@@ -370,12 +355,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-11-1-1",
+      "trip_id": "trip-bus-11-1",
       "bus_id": "bus-11",
       "route_id": "route-3",
-      "scheduled_time": "2025-10-02T10:18:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
       "current_location": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -383,12 +368,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-12-1-1",
+      "trip_id": "trip-bus-12-1",
       "bus_id": "bus-12",
       "route_id": "route-3",
-      "scheduled_time": "2025-10-02T10:28:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
       "current_location": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -396,12 +381,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-13-1-1",
+      "trip_id": "trip-bus-13-1",
       "bus_id": "bus-13",
       "route_id": "route-3",
-      "scheduled_time": "2025-10-02T10:38:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
       "current_location": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -409,12 +394,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-14-1-1",
+      "trip_id": "trip-bus-14-1",
       "bus_id": "bus-14",
       "route_id": "route-3",
-      "scheduled_time": "2025-10-02T10:48:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
       "current_location": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -422,12 +407,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-15-1-1",
+      "trip_id": "trip-bus-15-1",
       "bus_id": "bus-15",
       "route_id": "route-3",
-      "scheduled_time": "2025-10-02T10:58:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
       "current_location": {
         "lat": 7.2906,
         "lng": 80.6337
@@ -435,11 +420,11 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-16-1-1",
+      "trip_id": "trip-bus-16-1",
       "bus_id": "bus-16",
       "route_id": "route-4",
-      "scheduled_time": "2025-10-02T11:08:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T10:42:00.000Z",
+      "duration_min": 300,
       "steps": 150,
       "current_location": {
         "lat": 8.5878,
@@ -448,11 +433,11 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-17-1-1",
+      "trip_id": "trip-bus-17-1",
       "bus_id": "bus-17",
       "route_id": "route-4",
-      "scheduled_time": "2025-10-02T11:18:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T11:17:00.000Z",
+      "duration_min": 300,
       "steps": 150,
       "current_location": {
         "lat": 8.5878,
@@ -461,11 +446,11 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-18-1-1",
+      "trip_id": "trip-bus-18-1",
       "bus_id": "bus-18",
       "route_id": "route-4",
-      "scheduled_time": "2025-10-02T11:28:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T11:52:00.000Z",
+      "duration_min": 300,
       "steps": 150,
       "current_location": {
         "lat": 8.5878,
@@ -474,11 +459,11 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-19-1-1",
+      "trip_id": "trip-bus-19-1",
       "bus_id": "bus-19",
       "route_id": "route-4",
-      "scheduled_time": "2025-10-02T11:38:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T12:27:00.000Z",
+      "duration_min": 300,
       "steps": 150,
       "current_location": {
         "lat": 8.5878,
@@ -487,11 +472,11 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-20-1-1",
+      "trip_id": "trip-bus-20-1",
       "bus_id": "bus-20",
       "route_id": "route-4",
-      "scheduled_time": "2025-10-02T11:48:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T13:02:00.000Z",
+      "duration_min": 300,
       "steps": 150,
       "current_location": {
         "lat": 8.5878,
@@ -500,12 +485,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-21-1-1",
+      "trip_id": "trip-bus-21-1",
       "bus_id": "bus-21",
       "route_id": "route-5",
-      "scheduled_time": "2025-10-02T11:58:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
       "current_location": {
         "lat": 6.991,
         "lng": 81.055
@@ -513,12 +498,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-22-1-1",
+      "trip_id": "trip-bus-22-1",
       "bus_id": "bus-22",
       "route_id": "route-5",
-      "scheduled_time": "2025-10-02T12:08:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
       "current_location": {
         "lat": 6.991,
         "lng": 81.055
@@ -526,12 +511,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-23-1-1",
+      "trip_id": "trip-bus-23-1",
       "bus_id": "bus-23",
       "route_id": "route-5",
-      "scheduled_time": "2025-10-02T12:18:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
       "current_location": {
         "lat": 6.991,
         "lng": 81.055
@@ -539,12 +524,12 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-24-1-1",
+      "trip_id": "trip-bus-24-1",
       "bus_id": "bus-24",
       "route_id": "route-5",
-      "scheduled_time": "2025-10-02T12:28:00.000Z",
-      "duration_min": 60,
-      "steps": 150,
+      "scheduled_time": "2025-10-03T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
       "current_location": {
         "lat": 6.991,
         "lng": 81.055
@@ -552,12 +537,1962 @@
       "status": "scheduled"
     },
     {
-      "trip_id": "trip-bus-25-1-1",
+      "trip_id": "trip-bus-25-1",
       "bus_id": "bus-25",
       "route_id": "route-5",
-      "scheduled_time": "2025-10-02T12:38:00.000Z",
-      "duration_min": 60,
+      "scheduled_time": "2025-10-03T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-2",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-04T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-2",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-04T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-2",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-04T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-2",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-04T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-2",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-04T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-2",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-04T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-2",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-04T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-2",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-04T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-2",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-04T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-2",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-04T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-2",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-04T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-2",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-04T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-2",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-04T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-2",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-04T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-2",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-04T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-2",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-04T10:42:00.000Z",
+      "duration_min": 300,
       "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-2",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-04T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-2",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-04T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-2",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-04T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-2",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-04T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-2",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-04T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-2",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-04T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-2",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-04T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-2",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-04T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-2",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-04T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-3",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-05T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-3",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-05T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-3",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-05T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-3",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-05T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-3",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-05T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-3",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-05T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-3",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-05T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-3",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-05T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-3",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-05T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-3",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-05T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-3",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-05T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-3",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-05T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-3",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-05T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-3",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-05T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-3",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-05T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-3",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-05T10:42:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-3",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-05T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-3",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-05T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-3",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-05T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-3",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-05T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-3",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-05T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-3",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-05T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-3",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-05T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-3",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-05T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-3",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-05T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-4",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-06T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-4",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-06T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-4",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-06T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-4",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-06T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-4",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-06T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-4",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-06T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-4",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-06T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-4",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-06T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-4",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-06T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-4",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-06T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-4",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-06T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-4",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-06T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-4",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-06T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-4",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-06T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-4",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-06T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-4",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-06T10:42:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-4",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-06T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-4",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-06T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-4",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-06T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-4",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-06T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-4",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-06T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-4",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-06T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-4",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-06T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-4",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-06T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-4",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-06T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-5",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-07T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-5",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-07T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-5",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-07T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-5",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-07T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-5",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-07T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-5",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-07T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-5",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-07T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-5",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-07T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-5",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-07T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-5",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-07T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-5",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-07T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-5",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-07T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-5",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-07T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-5",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-07T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-5",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-07T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-5",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-07T10:42:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-5",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-07T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-5",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-07T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-5",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-07T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-5",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-07T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-5",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-07T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-5",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-07T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-5",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-07T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-5",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-07T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-5",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-07T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-6",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-08T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-6",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-08T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-6",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-08T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-6",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-08T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-6",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-08T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-6",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-08T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-6",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-08T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-6",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-08T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-6",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-08T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-6",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-08T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-6",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-08T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-6",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-08T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-6",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-08T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-6",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-08T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-6",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-08T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-6",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-08T10:42:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-6",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-08T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-6",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-08T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-6",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-08T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-6",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-08T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-6",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-08T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-6",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-08T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-6",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-08T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-6",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-08T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-6",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-08T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-1-7",
+      "bus_id": "bus-1",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-09T10:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-2-7",
+      "bus_id": "bus-2",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-09T10:57:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-3-7",
+      "bus_id": "bus-3",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-09T11:12:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-4-7",
+      "bus_id": "bus-4",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-09T11:27:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-5-7",
+      "bus_id": "bus-5",
+      "route_id": "route-1",
+      "scheduled_time": "2025-10-09T11:42:00.000Z",
+      "duration_min": 180,
+      "steps": 90,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-6-7",
+      "bus_id": "bus-6",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-09T10:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-7-7",
+      "bus_id": "bus-7",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-09T11:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-8-7",
+      "bus_id": "bus-8",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-09T11:22:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-9-7",
+      "bus_id": "bus-9",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-09T11:42:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-10-7",
+      "bus_id": "bus-10",
+      "route_id": "route-2",
+      "scheduled_time": "2025-10-09T12:02:00.000Z",
+      "duration_min": 150,
+      "steps": 75,
+      "current_location": {
+        "lat": 6.9271,
+        "lng": 79.8612
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-11-7",
+      "bus_id": "bus-11",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-09T10:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-12-7",
+      "bus_id": "bus-12",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-09T11:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-13-7",
+      "bus_id": "bus-13",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-09T11:22:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-14-7",
+      "bus_id": "bus-14",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-09T11:42:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-15-7",
+      "bus_id": "bus-15",
+      "route_id": "route-3",
+      "scheduled_time": "2025-10-09T12:02:00.000Z",
+      "duration_min": 120,
+      "steps": 60,
+      "current_location": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-16-7",
+      "bus_id": "bus-16",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-09T10:42:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-17-7",
+      "bus_id": "bus-17",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-09T11:17:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-18-7",
+      "bus_id": "bus-18",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-09T11:52:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-19-7",
+      "bus_id": "bus-19",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-09T12:27:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-20-7",
+      "bus_id": "bus-20",
+      "route_id": "route-4",
+      "scheduled_time": "2025-10-09T13:02:00.000Z",
+      "duration_min": 300,
+      "steps": 150,
+      "current_location": {
+        "lat": 8.5878,
+        "lng": 81.2152
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-21-7",
+      "bus_id": "bus-21",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-09T10:42:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-22-7",
+      "bus_id": "bus-22",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-09T11:07:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-23-7",
+      "bus_id": "bus-23",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-09T11:32:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-24-7",
+      "bus_id": "bus-24",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-09T11:57:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
+      "current_location": {
+        "lat": 6.991,
+        "lng": 81.055
+      },
+      "status": "scheduled"
+    },
+    {
+      "trip_id": "trip-bus-25-7",
+      "bus_id": "bus-25",
+      "route_id": "route-5",
+      "scheduled_time": "2025-10-09T12:22:00.000Z",
+      "duration_min": 100,
+      "steps": 50,
       "current_location": {
         "lat": 6.991,
         "lng": 81.055
