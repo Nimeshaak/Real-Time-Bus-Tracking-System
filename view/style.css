@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#controls, #operatorControls {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+}
+
+#map {
+  height: 70vh;
+  width: 100%;
+}
+
+input, select, button {
+  padding: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NTC Bus Tracking</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    #controls, #operatorControls {
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      position: relative;
+      z-index: 1000;
+      background: rgba(255,255,255,0.95);
+    }
+    #map { height: 70vh; width: 100%; }
+    input, select, button { padding: 5px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <!-- Filters & Search -->
+  <div id="controls">
+    <input type="text" id="routeNameInput" placeholder="Search by Route Id" />
+    <button id="routeFilterBtn">Filter by Route</button>
+
+    <input type="text" id="busIdInput" placeholder="Search Bus by Id" />
+    <button id="busSearchBtn">Search Bus</button>
+
+    <button id="showAllBtn">Clear All Filters</button>
+  </div>
+
+  <!-- Bus Operator Controls -->
+  <div id="operatorControls">
+    <h3>Bus Operator: Update Trip Status</h3>
+    <input type="text" id="operatorTripId" placeholder="Enter Trip ID" />
+    <select id="operatorStatus">
+      <option value="">Select Status</option>
+      <option value="en_route">En Route</option>
+      <option value="delayed">Delayed</option>
+      <option value="cancelled">Cancelled</option>
+    </select>
+    <button id="updateTripStatusBtn">Update Status</button>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
