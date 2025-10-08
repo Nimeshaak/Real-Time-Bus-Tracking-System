@@ -11,7 +11,7 @@ const searchRoutes = require('./routes/searchRoutes');
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static('view'));
 
 const mongoURI = 'mongodb+srv://ntcadmin:123ASDF00nkw@cluster0.2wxtosm.mongodb.net/bus_tracking';
 
@@ -38,7 +38,7 @@ function connectWithRetry() {
 connectWithRetry();
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'view', 'index.html'));
 });
 
 // API routes
